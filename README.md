@@ -1,19 +1,26 @@
 
 # Virtual Assistant Referee
 ##### Player contact and foul detection in sports using AI based video analysis.
+
 ## Run
 
 Package Requirements: `TensorFlow`,`OpenCV`,`Numpy`,`Streamlit`
 
-Install dependencies: `pip install tensorflow opencv-python numpy streamlit`
-
-
 To run the project:
 
 ```bash
-mkdir varCNN
-cd varCNN
 git clone "https://github.com/harshpx/Virtual-Assistant-Referee.git"
+
+cd Virtual-Assistant-Referee
+
+python3 -m venv venv
+or
+python3.11 -m venv venv
+
+source ./venv/bin/activate
+
+pip install -r requirements.txt
+
 streamlit run app.py
 ```
 ## Project Description
